@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Button"
+    />
+   <Button 
+   		android:id="@+id/b01"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="拍摄" 
+    />
+   <Button 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="图库"
+    	android:onClick="btn_photo"
+    />
+    <ImageView
+    	android:id="@+id/iv01"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+     />
+</LinearLayout>
