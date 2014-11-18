@@ -176,8 +176,11 @@ public class Lesson_01_Pic extends Activity {
 		// outputX outputY 是裁剪图片宽高
 		intent.putExtra("outputX", 164);
 		intent.putExtra("outputY", 164);
+		//返回intent bundle data 对象为裁剪后图片
 		intent.putExtra("return-data", false);
 		intent.putExtra("url", uri);
+		//去黑边
+		intent.putExtra("scaleUpIfNeeded", true);
 		startActivityForResult(intent, 3);
 	}
 	
